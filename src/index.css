@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #000000;
+  --color-secondary: #242121;
+  --color-cyan: #00BCD5;
+  --color-light-cyan: #6bc7d4;
+  --color-very-light-cyan: #adf5ff;
+  --color-light-gray: #F4F5F6;
+  --color-accent-orange: #FFBC7D;
+  --color-white: #ffffff;
+
+  --font-sans: "Roboto", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+
+  --breakpoint-md: 690px;
+  --breakpoint-lg: 1000px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-white);
+  }
+}
+
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#root, #main-container, .site-main, .entry-content, .ct-container-full, article {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+#header.ct-header,
+.ct-drawer-canvas,
+#offcanvas,
+.ct-panel {
+  display: none !important;
+}
+
+.is-layout-constrained > .elementor {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.elementor, .elementor-element, .e-con, .e-con-boxed, .e-con-full {
+  max-width: 100% !important;
+}
+
+/* Section Background Images (Restore from WordPress) */
+.elementor-element.elementor-element-592b73b {
+  background-image: url("https://spaciakolkata.online/wp-content/uploads/2024/03/interior.jpg") !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative !important;
+}
+
+.elementor-element.elementor-element-592b73b::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background-color: #000000 !important;
+  opacity: 0.74 !important;
+  pointer-events: none !important;
+  z-index: 0 !important;
+}
+
+.elementor-element.elementor-element-592b73b > .e-con-inner {
+  position: relative !important;
+  z-index: 1 !important;
+}
