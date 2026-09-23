@@ -12,9 +12,6 @@
 
   --font-sans: "Roboto", sans-serif;
   --font-heading: "Montserrat", sans-serif;
-
-  --breakpoint-md: 690px;
-  --breakpoint-lg: 1000px;
 }
 
 @layer base {
@@ -87,4 +84,40 @@ html, body {
 .elementor-element.elementor-element-592b73b > .e-con-inner {
   position: relative !important;
   z-index: 1 !important;
+}
+
+/* Bulletproof Navbar Responsive Rules */
+.spacia-desktop-nav {
+  display: flex !important;
+  align-items: center !important;
+  gap: 2rem !important;
+  flex-shrink: 0 !important;
+}
+
+.spacia-desktop-cta {
+  display: block !important;
+  flex-shrink: 0 !important;
+}
+
+.spacia-mobile-trigger {
+  display: none !important;
+}
+
+.spacia-mobile-drawer {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .spacia-desktop-nav {
+    display: none !important;
+  }
+  .spacia-desktop-cta {
+    display: none !important;
+  }
+  .spacia-mobile-trigger {
+    display: flex !important;
+  }
+  .spacia-mobile-drawer {
+    display: block !important;
+  }
 }

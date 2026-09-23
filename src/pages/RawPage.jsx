@@ -101,7 +101,7 @@ export default function RawPage() {
 		
 		<div className="entry-content w-full !max-w-full !p-0 !m-0">
 					<div data-elementor-type="wp-page" data-elementor-id="9" className="elementor elementor-9 w-full !max-w-full !p-0 !m-0" data-elementor-post-type="page">
-				<div className="elementor-element elementor-element-9fc5b63 e-flex e-con-boxed w-full !max-w-full e-con e-parent" data-id="9fc5b63" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div id="home" className="elementor-element elementor-element-9fc5b63 e-flex e-con-boxed w-full !max-w-full e-con e-parent" data-id="9fc5b63" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div className="e-con-inner">
 		<div className="elementor-element elementor-element-7594188 e-con-full e-flex e-con e-child" data-id="7594188" data-element_type="container">
 				<div className="elementor-element elementor-element-9c59e41 animated-fast  elementor-widget elementor-widget-heading" data-id="9c59e41" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
