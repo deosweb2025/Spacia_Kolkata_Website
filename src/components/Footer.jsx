@@ -62,7 +62,7 @@ export default function Footer() {
       {/* Copyright Bar */}
       <div className="border-t border-gray-800 pt-8 mt-8">
         <div className="max-w-[88vw] mx-auto text-center font-sans text-[10px] md:text-[13px] text-gray-500">
-          Copyright © {new Date().getFullYear()} Spacia - Powered by <a href="http://teamdeos.com/" className="text-[#00BCD5] hover:underline" target="_blank" rel="noreferrer">Digital Exposure Online Services</a>
+          Copyright © {new Date().getFullYear()} Spacia - Powered by <a href="http://teamdeoskolkata.in/" className="text-[#00BCD5] hover:underline" target="_blank" rel="noreferrer">Digital Exposure Online Services</a>
         </div>
       </div>
     </footer>
