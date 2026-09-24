@@ -25,14 +25,14 @@ export default function Navbar() {
       <header className="fixed top-0 left-0 right-0 w-full z-50 bg-white shadow-sm">
         <div className="max-w-[1290px] w-full mx-auto flex items-center justify-between h-[90px] px-6">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-3 shrink-0 cursor-pointer">
+          <div className="flex items-center gap-3 shrink-0 cursor-pointer">
             <img 
               src="https://spaciakolkata.online/wp-content/uploads/2025/02/COMPANY-LOGO.png" 
               alt="Spacia Logo" 
               style={{ height: '50px', width: 'auto', objectFit: 'contain', maxWidth: '100px' }}
             />
             <span className="font-sans text-[36px] font-bold text-[#6BB9D2] whitespace-nowrap">Spacia</span>
-          </a>
+          </div>
 
           {/* Desktop Navigation (Laptop / Desktop View) */}
           <nav className="spacia-desktop-nav">

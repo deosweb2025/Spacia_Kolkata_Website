@@ -134,9 +134,10 @@ export default function RawPage() {
 				<div className="elementor-widget-container">
 					<h2 className="elementor-heading-title elementor-size-default">What Spacia does</h2>				</div>
 				</div>
-				<div className="elementor-element elementor-element-6f11c76 elementor-widget__width-initial  elementor-widget elementor-widget-text-editor" data-id="6f11c76" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+				<div className="elementor-element elementor-element-6f11c76 elementor-widget elementor-widget-text-editor" data-id="6f11c76" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
 				<div className="elementor-widget-container">
-									<div className="flex max-w-full flex-col flex-grow"><div className="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="70af66ef-3fcf-451f-9be9-6a869f77227b" data-message-model-slug="gpt-4o"><div className="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div className="markdown prose w-full break-words dark:prose-invert dark"><p data-start="0" data-end="281" data-is-last-node="" data-is-only-node="">False ceiling design is not just about aesthetics but also about functionality. We create stunning and efficient ceiling solutions that enhance the visual appeal of any space while improving insulation, acoustics, and lighting. Our designs are crafted to impress and built to last.</p></div></div></div></div>								</div>
+					<p>False ceiling design is not just about aesthetics but also about functionality. We create stunning and efficient ceiling solutions that enhance the visual appeal of any space while improving insulation, acoustics, and lighting. Our designs are crafted to impress and built to last.</p>
+				</div>
 				</div>
 					</div>
 				</div>

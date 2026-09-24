@@ -120,4 +120,22 @@ html, body {
   .spacia-mobile-drawer {
     display: block !important;
   }
+
+  .elementor-element.elementor-element-6f11c76 {
+    width: 100% !important;
+    max-width: 100% !important;
+    --container-widget-width: 100% !important;
+  }
+
+  .elementor-element.elementor-element-6f11c76 p {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #ffffff !important;
+    text-align: left !important;
+    margin: 0 !important;
+  }
 }
